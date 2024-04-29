@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#logo{
+    height: 95px;
+    margin-top: -6px;
+}
+
+#box{
+    height: 80px;
+    width: 2000px;
+    filter: blur(0.10px);
+    background-color: rgba(0, 0, 0, 0.643);
+}
+
+#Games{
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+  margin-left: 120px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+
+
+
+
+#flex{
+    display: flex;
+
+}
+
+#cheats{
+    font-size: 35px;
+    color: rgb(249, 0, 249);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 120px;
+    cursor: pointer;
+    transition: 0.8s;
+  }
+
+  #cheats:hover{
+    
+    
+    color: rgb(255, 255, 255);
+  }
+
+  #support{
+    font-size: 35px;
+    color: rgb(249, 0, 249);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 120px;
+    cursor:pointer;
+    transition: 0.8s;
+  }
+
+  #support:hover{
+    
+   
+    color: rgb(255, 255, 255);
+  }
+
+  #donation{
+    font-size: 35px;
+    color: rgb(249, 0, 249);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 120px;
+    cursor: pointer;
+    transition: 0.8s;
+    text-decoration: none;
+  }
+
+  #donation:hover{
+    
+    
+    color: rgb(255, 255, 255);
+  }
+  #language{
+    height: 30px;
+    width: 95px;
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-top: 20px;
+  }
+
+  #block{
+    height: 28px;
+    width: 49px;
+    background-color: rgb(249, 0, 249);
+    transition: 0.8s;
+    margin-top: -2px;
+  }
+
+  #block:hover{
+    margin-left: 46px;
+  }
+
+  #effect{
+    text-decoration: none;
+  }
+
+  body{
+     position: fixed; 
+  }
+
+  #background{
+    background-image: url(./wallper.jpg);
+    height: 100vh;
+    background-size: cover;
+  }
+
+  #container{
+    height: 880px;
+    width: 1350px;
+    background-color: red;
+    margin-left: -1380px;
+    justify-content: center;
+    display: flex;
+    margin-top: 35px;
+    overflow-y: scroll;
+    filter: blur(0.10px);
+    background-color: rgba(0, 0, 0, 0.643);
+    position: fixed;
+    
+  }
+
+  #container h2{
+   font-size: 32px;
+   color: white;
+  }
+
+  p{
+    font-size: 30px;
+  }
